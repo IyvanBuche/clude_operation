@@ -1,0 +1,147 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid grey;
+  margin-bottom: 40px;
+}
+header h1 {
+  color: black;
+}
+header a {
+  color: black;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+nav {
+  display: flex;
+  gap: 30px;
+}
+.group {
+  display: flex;
+  gap: 20px;
+}
+.group div {
+  /* border: 1px solid black; */
+  width: 100%;
+  padding: 6px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+  background: #fff;
+}
+.group span {
+  float: right;
+  font-size: 35px;
+  font-family: sans-serif;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.new_patient {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.new_patient button {
+  background: #000;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+}
+.new_patient a {
+  color: white;
+  font-weight: bold;
+}
+.new_patient h3 {
+  font-size: 30px;
+}
+.head {
+  background: #000;
+  color: white;
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: bold;
+  height: 50px;
+}
+.head2 {
+  height: 50px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  background: #f1f1f1;
+}
+.head {
+  background: #000;
+}
+.head a {
+  color: orange;
+  text-transform: uppercase;
+}
+a {
+  text-decoration: none;
+  text-transform: capitalize;
+  font-family: sans-serif;
+}
+div h3 {
+  font-family: sans-serif;
+  font-size: 20px;
+  margin-left: 20px;
+  text-transform: uppercase;
+}
+header span {
+  color: orange;
+  font-weight: bold;
+}
+.btn button {
+  background: #000;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+}
+.btn a {
+  color: orange;
+  font-weight: bold;
+  font-family: sans-serif;
+  padding: 10px;
+}
+form {
+  /* margin-left: 600px; */
+  /* border: 1px solid grey; */
+}
+.all_label {
+  text-align: center;
+  /* border: 1px solid grey; */
+  margin-top: 190px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.4);
+  padding: 10px;
+  width: 600px;
+  margin-left: 500px;
+  border-radius: 20px;
+  font-family: sans-serif;
+}
+.all_label input {
+  height: 30px;
+  /* width: 200px; */
+}
+.all_label span {
+  color: orange;
+}
+.btn input:hover {
+  background: #000;
+  color: white;
+  border: none;
+  width: 80px;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.btn input {
+  background: orange;
+  color: black;
+  border: none;
+  width: 80px;
+  border-radius: 10px;
+  font-weight: bold;
+}
